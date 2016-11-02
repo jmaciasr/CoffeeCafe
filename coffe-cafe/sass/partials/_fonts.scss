@@ -1,0 +1,19 @@
+body {
+	font: 12px $brand-font;
+	color: $text-color;
+}
+
+p {
+	line-height: 150%;
+}
+
+h1, h2 {
+	font: bold 18px $brand-font;
+	text-transform: uppercase;
+}
+
+.read-more {
+	color: $read-more-color;
+	font-style: italic;
+}
+

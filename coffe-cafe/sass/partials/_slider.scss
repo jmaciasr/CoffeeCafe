@@ -1,0 +1,48 @@
+
+.slider {
+	position: relative;
+
+	.read-more {
+		color: $text-color;
+	}
+}
+
+.slider-cont {
+
+	margin: 0 auto;
+	padding-top: 100px;	
+	width: 850px;
+
+}
+
+.slider-tex {
+	float:left;
+	width: 400px;
+}
+
+.slider-img {
+	float:right;
+	
+}
+
+.arrow-left {
+	position: absolute;
+	left: 14%;
+	top: 50%;
+
+}
+
+.arrow-right {
+	position: absolute;
+	right: 14%;
+	top: 50%;
+	
+
+}
+
+.points {
+
+	padding-bottom: 10px;
+	display: block;
+	margin: 0 auto;
+}

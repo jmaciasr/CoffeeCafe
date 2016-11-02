@@ -1,0 +1,170 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+.clearFix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0; }
+
+body {
+  font: 12px helvetica, sans-serif;
+  color: #9d9c9d; }
+
+p {
+  line-height: 150%; }
+
+h1, h2 {
+  font: bold 18px helvetica, sans-serif;
+  text-transform: uppercase; }
+
+.read-more {
+  color: #826251;
+  font-style: italic; }
+
+body {
+  background-color: #fff; }
+
+p {
+  margin-top: 15px; }
+
+header {
+  background-color: #e8e8e8; }
+
+a {
+  text-decoration: none;
+  color: #9d9c9d; }
+
+.fringe {
+  height: 10px;
+  background-color: #664735; }
+
+.content {
+  margin: 0 auto;
+  width: 1090px; }
+
+.arroy-top {
+  position: relative;
+  padding: 10px 0; }
+  .arroy-top img {
+    position: absolute;
+    left: 50%; }
+
+header {
+  padding-top: 40px; }
+
+nav img {
+  float: left; }
+nav ul {
+  background-color: #FFF;
+  border-radius: 35px;
+  float: right; }
+nav li {
+  border-left: solid 1px #e8e8e8;
+  list-style: none;
+  display: inline-block;
+  padding: 20px 25px; }
+
+.slider {
+  position: relative; }
+  .slider .read-more {
+    color: #9d9c9d; }
+
+.slider-cont {
+  margin: 0 auto;
+  padding-top: 100px;
+  width: 850px; }
+
+.slider-tex {
+  float: left;
+  width: 400px; }
+
+.slider-img {
+  float: right; }
+
+.arrow-left {
+  position: absolute;
+  left: 14%;
+  top: 50%; }
+
+.arrow-right {
+  position: absolute;
+  right: 14%;
+  top: 50%; }
+
+.points {
+  padding-bottom: 10px;
+  display: block;
+  margin: 0 auto; }
+
+.articles {
+  padding: 100px 0 140px;
+  text-align: center; }
+  .articles h2 {
+    margin-top: 5px; }
+
+.article-left {
+  float: left;
+  width: 285px; }
+
+.article-center {
+  margin-left: 112px;
+  float: left;
+  width: 285px; }
+
+.article-right {
+  float: right;
+  width: 285px; }
+
+.us {
+  background-color: #664735; }
+  .us img {
+    float: left;
+    width: 50%; }
+  .us h2, .us p {
+    color: #fff;
+    line-height: 250%; }
+  .us .read-more {
+    background-color: #FFF;
+    border-radius: 10px;
+    margin-top: 10px;
+    padding: 20px; }
+  .us span {
+    display: block;
+    width: 60px; }
+
+.us-tex {
+  box-sizing: border-box;
+  float: right;
+  padding: 5%;
+  width: 50%; }
+
+.gallery {
+  padding-top: 150px;
+  text-align: center; }
+
+.photos {
+  padding-top: 40px;
+  width: 1050px; }
+  .photos img {
+    float: left;
+    height: 275px;
+    width: 350px; }
+
+footer {
+  background-color: #664735;
+  background-image: url("..img/pat.png");
+  margin-top: 60px;
+  padding: 30px 0 60px; }
+  footer h2, footer p {
+    color: #fff; }
+  footer .content div {
+    float: left;
+    margin-left: 25px; }
+    footer .content div:first-child {
+      margin-left: 0; }
+
+/*# sourceMappingURL=styles.css.map */
