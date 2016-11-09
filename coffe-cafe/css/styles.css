@@ -1,7 +1,6 @@
 * {
   margin: 0;
-  padding: 0;
-}
+  padding: 0; }
 
 .clearFix:after {
   visibility: hidden;
@@ -171,10 +170,8 @@ footer {
     color: #fff; }
   footer .content div {
     float: left;
-    margin-left: 5%;
-    			/*&:first-child {
-    			margin-left: 0;
-    
-    			}*/ }
+    margin-left: 5%; }
+    footer .content div:first-child {
+      margin-left: 0; }
 
 /*# sourceMappingURL=styles.css.map */
