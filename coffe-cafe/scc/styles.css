@@ -1,0 +1,170 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+.clearFix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0; }
+
+body {
+  font: 0.75em helvetica, sans-serif;
+  color: #9d9c9d; }
+
+p {
+  line-height: 150%; }
+
+h1, h2 {
+  font: bold 1.125em helvetica, sans-serif;
+  text-transform: uppercase; }
+
+.read-more {
+  color: #826251;
+  font-style: italic; }
+
+body {
+  background-color: #fff; }
+
+p {
+  margin-top: 15px; }
+
+header {
+  background-color: #e8e8e8; }
+
+a {
+  text-decoration: none;
+  color: #9d9c9d; }
+
+.fringe {
+  height: 10px;
+  background-color: #664735; }
+
+.content {
+  margin: 0 auto;
+  width: 68.125em; }
+
+.arroy-top {
+  position: relative;
+  padding: 10px 0; }
+  .arroy-top img {
+    position: absolute;
+    left: 50%; }
+
+header {
+  padding-top: 40px; }
+
+nav img {
+  float: left; }
+nav ul {
+  background-color: #FFF;
+  border-radius: 35px;
+  float: right; }
+nav li {
+  border-left: solid 1px #e8e8e8;
+  list-style: none;
+  display: inline-block;
+  padding: 20px 1.563em; }
+
+.slider {
+  position: relative; }
+  .slider .read-more {
+    color: #9d9c9d; }
+
+.slider-cont {
+  margin: 0 auto;
+  padding-top: 100px;
+  width: 53.125em; }
+
+.slider-tex {
+  float: left;
+  width: 25em; }
+
+.slider-img {
+  float: right; }
+
+.arrow-left {
+  position: absolute;
+  left: 14%;
+  top: 50%; }
+
+.arrow-right {
+  position: absolute;
+  right: 14%;
+  top: 50%; }
+
+.points {
+  padding-bottom: 10px;
+  display: block;
+  margin: 0 auto; }
+
+.articles {
+  padding: 100px 0 140px;
+  text-align: center; }
+  .articles h2 {
+    margin-top: 5px; }
+
+.article-left {
+  float: left;
+  width: 285px; }
+
+.article-center {
+  margin-left: 112px;
+  float: left;
+  width: 17.81em; }
+
+.article-right {
+  float: right;
+  width: 17.81em; }
+
+.us {
+  background-color: #664735; }
+  .us img {
+    float: left;
+    width: 50%; }
+  .us h2, .us p {
+    color: #fff;
+    line-height: 250%; }
+  .us .read-more {
+    background-color: #FFF;
+    border-radius: 10px;
+    margin-top: 10px;
+    padding: 20px 1.25em; }
+  .us span {
+    display: block;
+    width: 3.75em; }
+
+.us-tex {
+  box-sizing: border-box;
+  float: right;
+  padding: 5%;
+  width: 50%; }
+
+.gallery {
+  padding-top: 150px;
+  text-align: center; }
+
+.photos {
+  padding-top: 40px;
+  width: 65.625em; }
+  .photos img {
+    float: left;
+    height: 17.188em;
+    width: 21.875em; }
+
+footer {
+  background-color: #664735;
+  background-image: url("..img/pat.png");
+  margin-top: 60px;
+  padding: 30px 0 60px; }
+  footer h2, footer p {
+    color: #fff; }
+  footer .content div {
+    float: left;
+    margin-left: 1.563em; }
+    footer .content div:first-child {
+      margin-left: 0; }
+
+/*# sourceMappingURL=styles.css.map */
