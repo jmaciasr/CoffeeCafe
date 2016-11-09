@@ -11,13 +11,13 @@
 
 	margin: 0 auto;
 	padding-top: 100px;	
-	width: 850px;
+	width: 77.9%;
 
 }
 
 .slider-tex {
 	float:left;
-	width: 400px;
+	width: 37%;
 }
 
 .slider-img {
@@ -27,14 +27,14 @@
 
 .arrow-left {
 	position: absolute;
-	left: 14%;
+	left: 8%;
 	top: 50%;
 
 }
 
 .arrow-right {
 	position: absolute;
-	right: 14%;
+	right: 8%;
 	top: 50%;
 	
 
@@ -42,7 +42,7 @@
 
 .points {
 
-	padding-bottom: 10px;
-	display: block;
-	margin: 0 auto;
+	position: absolute;
+	left: 50%;
+	bottom: 5%;
 }

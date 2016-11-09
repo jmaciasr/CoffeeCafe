@@ -1,5 +1,6 @@
 .articles {
 	padding: 100px 0 140px;
+	position: relative;
 	text-align: center;
 	h2 {
 		margin-top: 5px;
@@ -8,15 +9,15 @@
 
 .article-left {
 	float: left;
-	width: 285px;	
+	width: 26.5%;	
 
 }
 .article-center {
-	margin-left: 112px; 
+	margin-left: 10.2%; 
 	float: left;
-	width: 285px;
+	width: 26.5%;
 }
 .article-right {
 	float: right;
-	width: 285px;
+	width: 26.5%;
 }
